@@ -14,3 +14,6 @@ The code visualizes a specific test image from the MNIST dataset using matplotli
 The modified model (`modified_model`) has a similar architecture to the previous model, with some changes in activation functions and layer sizes.The first dense layer has 128 units with tanh activation, and the second layer has 10 units with softmax activation for classification.Training is performed on the MNIST training dataset for 10 epochs, with validation data provided for monitoring.The training and validation loss and accuracy are plotted over epochs using matplotlib, providing insights into the performance of the modified model.
 ### Question 2d
 Ensure you have the MNIST dataset available. The dataset can be loaded using `mnist.load_data()` provided by TensorFlow or Keras.The model architecture is defined using the Keras Sequential API.The modified model (`model_no_scaling`) comprises several layers.
+
+### Video Link
+https://drive.google.com/file/d/1zjrASy8DHu_a4HS3j16pS7lXlxCY9ds8/view?usp=share_link
